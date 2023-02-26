@@ -36,8 +36,8 @@ function createEngineer(team) {
         }
     ]).then((engineerDetails) => {
         // Initialise Engineer class to create Manager object
-        // const engineer = new Engineer(engineerDetails.name, engineerDetails.id, engineerDetails.email, engineerDetails.githubUsername)
-        // team.push(engineer);
+        const engineer = new Engineer(engineerDetails.name, engineerDetails.id, engineerDetails.email, engineerDetails.github)
+        team.push(engineer);
         createTeam(team); // at this point we add an engineer to the team array
     });
 }
@@ -67,7 +67,7 @@ function createIntern(team) {
         }
     ]).then((internDetails) => {
         // Initialise Intern class to create Manager object
-        // const intern = new Intern(internDetails.name, internDetails.id, internDetails.email, internDetails.school)
+        const intern = new Intern(internDetails.name, internDetails.id, internDetails.email, internDetails.school)
         // team.push(intern);
         createTeam(team); // at this point we add an intern to the team array
     });
@@ -128,8 +128,8 @@ function createManager(team) {
         }
     ]).then((managerDetails) => {
         // Initialise Manager class to create Manager object
-        // const manager = new Manager(managerDetails.name, managerDetails.id, managerDetails.email, managerDetails.officeNumber)
-        // team.push(manager);
+        const manager = new Manager(managerDetails.name, managerDetails.id, managerDetails.email, managerDetails.officeNumber)
+        team.push(manager);
         createTeam(team); // at this point, team array have a manager in it
     });
 }
