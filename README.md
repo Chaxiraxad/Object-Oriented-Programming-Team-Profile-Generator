@@ -13,9 +13,9 @@ GitHub repository: https://github.com/Chaxiraxad/Object-Oriented-Programming-Tea
 
 
 ## Deployment
- Project url: 
+ Project url: https://chaxiraxad.github.io/Object-Oriented-Programming-Team-Profile-Generator/
 
-(ScreenShot) ![Module 12 Object-Oriented Programming: Team Profile Generator](./deployed%20web.png)
+(ScreenShot) ![Module 12 Object-Oriented Programming: Team Profile Generator](./deployed%20app.png)
 
 ## Usage
 N/A
