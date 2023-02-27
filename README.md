@@ -9,11 +9,11 @@ This application will take in information about employees on a software engineer
 As a manager a user want to generate a webpage that displays my team's basic info so that a user have quick access to their emails and GitHub profiles.
 
 ## Installation
-[GitHub repository](https://github.com/Chaxiraxad/Object-Oriented-Programming-Team-Profile-Generator.git)
+GitHub repository (https://github.com/Chaxiraxad/Object-Oriented-Programming-Team-Profile-Generator.git)
 
 
 ## Deployment
-[Project Link]()
+ Project url ()
 
 (ScreenShot) ![Module 12 Object-Oriented Programming: Team Profile Generator](./deployed%20web.png)
 

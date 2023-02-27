@@ -68,7 +68,7 @@ function createIntern(team) {
     ]).then((internDetails) => {
         // Initialise Intern class to create Manager object
         const intern = new Intern(internDetails.name, internDetails.id, internDetails.email, internDetails.school)
-        // team.push(intern);
+         team.push(intern);
         createTeam(team); // at this point we add an intern to the team array
     });
 }
@@ -96,7 +96,7 @@ function createTeam(team) {
             // write html to a file index.html using fs library
             fs.writeFile(outputPath, html, (err) => {
                 if (err) {
-                    console.log('Failed to write HTML file');
+                    console.log(err);
                 }
             });
         }
@@ -123,7 +123,7 @@ function createManager(team) {
         },
         {
             type: 'input',
-            name: 'school',
+            name: 'officeNumber',
             message: "What is the manager's office phone number?",
         }
     ]).then((managerDetails) => {
