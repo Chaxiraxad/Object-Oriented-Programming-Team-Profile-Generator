@@ -6,11 +6,11 @@ const path = require("path");
 const fs = require("fs");
 
 const OUTPUT_DIR = path.resolve(__dirname, "output");
-const outputPath = path.join(OUTPUT_DIR, "team.html");
+const outputPath = path.join(OUTPUT_DIR, "index.html");
 
 const render = require("./page-template.js");
 
-// TODO: Write Code to gather information about the development team members, and render the HTML file.
+// TODO: Write Code to gather information about the development  members, and render the HTML file.
 function createEngineer(team) {
     inquirer.prompt([
         // Engineer
@@ -31,7 +31,7 @@ function createEngineer(team) {
         },
         {
             type: 'input',
-            name: 'GitHubusername',
+            name: 'github',
             message: "What is the engineer's GitHub username?",
         }
     ]).then((engineerDetails) => {
