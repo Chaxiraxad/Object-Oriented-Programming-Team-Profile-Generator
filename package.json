@@ -2,7 +2,7 @@
   "name": "module14-challenge",
   "version": "1.0.0",
   "description": "Module 12's Challenge",
-  "main": "./output./index.hmtl",
+  "main": "index.hmtl",
   "directories": {
       "lib": "lib"
   },
